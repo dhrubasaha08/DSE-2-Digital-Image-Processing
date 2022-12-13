@@ -1,8 +1,9 @@
 %Calculate intersection of two images and display the intersection image
 clear
 
-img1 = imread("src\med1.png");
-img2 = imread("src\med2.png");
+img1 = imread("cameraman.tif");
+img2 = imread("rice.png");
+img2 = imresize(img2,[size(img1,1) size(img1,2)]);
 
 temp = (double(img1)-double(img2))==0;
 img3 = im2uint8(temp);
