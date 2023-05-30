@@ -1,0 +1,5 @@
+Consider a grey image of size M*N over grey 
+intensity spectram [p,P], p, P both non-negetive 
+integers with p <= P. Convert it into an image of same 
+size over grey spectrum [q, Q], q, Q both non-negetive
+integer with q >= Q.
